@@ -23,6 +23,8 @@ public class Pupils {
                 if (entry.getValue().getAge() < 18){
                     System.out.println(entry.getValue().getFirstName()
                     + " ma mniej niz 18 lat");
+                    System.out.println(entry.getValue().getFirstName()
+                            + " będzie usunięty z listy");
                     pupilsOfSchoolIterator.remove();
                 } else {
                     System.out.println(entry.getValue().getFirstName()
